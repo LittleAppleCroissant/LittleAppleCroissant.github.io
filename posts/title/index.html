@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <title>MIUI系统搞机简单教程 - My New Hugo Site</title><meta name="Description" content="This is my cool site"><meta property="og:title" content="MIUI系统搞机简单教程" />
+<meta property="og:description" content="目录 1. 解BL锁 2. 刷入第三方recovery 3. 刷入magisk获取root权限 1. 解BL锁 点击手机设置-&gt;开发者选项-&gt;设备解锁状态，绑定账号和设备。 打开官方链接：申请解锁小米手机 ，下载官方解锁工具进行解锁。 解BL锁会清除数据，先备份数据再操作。
+2. 刷入第三方recovery 在Windows上下载免费的 MiFlash 刷机工具并解压安装，打开后点击左上角的Driver安装即可。 找到适用于手机和安卓版本的第三方rec（例如橙狐rec），下载完成后解压。 按住电源键&#43;音量下键，进入fastboot模式并连接电脑。 在Windows上下载免费的 搞机助手 并解压安装，查看手机是否为A/B分区设备。 A/B分区设备：打开后点击引导模式-&gt;刷入REC-&gt;选择Recovery-&gt;临时刷入(A/B分区设备)，自动进入rec后如果提示密码则为锁屏密码，用搞机助手将刚刷入的recovery推送到手机，点击主页面（install）安装选项-&gt;右下角刷入镜像（install image）选项-&gt;选择recovery分区滑动刷入。 非A/B分区设备：打开后点击引导模式-&gt;刷入REC-&gt;选择Recovery-&gt;刷入(A/B分区设备)，自动进入rec后，用搞机助手将刚刷入的recovery推送到手机，点击主页面（install）安装选项-&gt;右下角刷入镜像（install image）选项-&gt;选择recovery分区滑动刷入。 至此，第三方rec刷入完成。
+3. 刷入magisk获取root权限 按住电源键&#43;音量上键，进入第三方rec，点击高级-&gt;安装Magisk滑动刷入，完成后重启系统即可。 开机后安装 Magisk app，下载安装后打开，如果提示修复运行环境则点击确认。 至此，成功刷入Magisk，开始愉快的刷机之旅吧！！" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://example.org/posts/title/" /><meta property="article:section" content="posts" />
+
+<meta property="og:site_name" content="My cool site" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="MIUI系统搞机简单教程"/>
+<meta name="twitter:description" content="目录 1. 解BL锁 2. 刷入第三方recovery 3. 刷入magisk获取root权限 1. 解BL锁 点击手机设置-&gt;开发者选项-&gt;设备解锁状态，绑定账号和设备。 打开官方链接：申请解锁小米手机 ，下载官方解锁工具进行解锁。 解BL锁会清除数据，先备份数据再操作。
+2. 刷入第三方recovery 在Windows上下载免费的 MiFlash 刷机工具并解压安装，打开后点击左上角的Driver安装即可。 找到适用于手机和安卓版本的第三方rec（例如橙狐rec），下载完成后解压。 按住电源键&#43;音量下键，进入fastboot模式并连接电脑。 在Windows上下载免费的 搞机助手 并解压安装，查看手机是否为A/B分区设备。 A/B分区设备：打开后点击引导模式-&gt;刷入REC-&gt;选择Recovery-&gt;临时刷入(A/B分区设备)，自动进入rec后如果提示密码则为锁屏密码，用搞机助手将刚刷入的recovery推送到手机，点击主页面（install）安装选项-&gt;右下角刷入镜像（install image）选项-&gt;选择recovery分区滑动刷入。 非A/B分区设备：打开后点击引导模式-&gt;刷入REC-&gt;选择Recovery-&gt;刷入(A/B分区设备)，自动进入rec后，用搞机助手将刚刷入的recovery推送到手机，点击主页面（install）安装选项-&gt;右下角刷入镜像（install image）选项-&gt;选择recovery分区滑动刷入。 至此，第三方rec刷入完成。
+3. 刷入magisk获取root权限 按住电源键&#43;音量上键，进入第三方rec，点击高级-&gt;安装Magisk滑动刷入，完成后重启系统即可。 开机后安装 Magisk app，下载安装后打开，如果提示修复运行环境则点击确认。 至此，成功刷入Magisk，开始愉快的刷机之旅吧！！"/>
+<meta name="application-name" content="My cool site">
+<meta name="apple-mobile-web-app-title" content="My cool site"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="http://example.org/posts/title/" /><link rel="next" href="http://example.org/posts/hello-world/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css"></noscript><link rel="preload" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css"></noscript><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "MIUI系统搞机简单教程",
+        "inLanguage": "en-us",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "http:\/\/example.org\/posts\/title\/"
+        },"genre": "posts","wordcount":  35 ,
+        "url": "http:\/\/example.org\/posts\/title\/","publisher": {
+            "@type": "Organization",
+            "name": ""},"author": {
+                "@type": "Person",
+                "name": "Author"
+            },"description": ""
+    }
+    </script></head>
+    <body data-header-desktop="fixed" data-header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="My New Hugo Site">My cool site</a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                    <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+                </a></div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="My New Hugo Site">My cool site</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a></div>
+    </div>
+</header><main class="main">
+                <div class="container"><div class="toc" id="toc-auto">
+            <h2 class="toc-title">Contents</h2>
+            <div class="toc-content" id="toc-content-auto"></div>
+        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">MIUI系统搞机简单教程</h1><div class="post-meta">
+            <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Author</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="0001-01-01">0001-01-01</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;35 words&nbsp;
+                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;One minute&nbsp;</div>
+        </div><div class="details toc" id="toc-static"  data-kept="">
+                <div class="details-summary toc-title">
+                    <span>Contents</span>
+                    <span><i class="details-icon fas fa-angle-right" aria-hidden="true"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents"></nav></div>
+            </div><div class="content" id="content"><h1 id="目录">目录</h1>
+<ul>
+<li><a href="#1-%e8%a7%a3BL%e9%94%81" rel="">1. 解BL锁</a></li>
+<li><a href="#2-%e5%88%b7%e5%85%a5%e7%ac%ac%e4%b8%89%e6%96%b9recovery" rel="">2. 刷入第三方recovery</a></li>
+<li><a href="#3-%e5%88%b7%e5%85%a5magisk%e8%8e%b7%e5%8f%96root%e6%9d%83%e9%99%90" rel="">3. 刷入magisk获取root权限</a></li>
+</ul>
+<h1 id="1-解bl锁">1. 解BL锁</h1>
+<ul>
+<li>点击<code>手机设置-&gt;开发者选项-&gt;设备解锁状态</code>，绑定账号和设备。</li>
+<li>打开官方链接：<a href="http://www.miui.com/unlock/index.html" target="_blank" rel="noopener noreffer ">申请解锁小米手机</a> ，下载官方解锁工具进行解锁。</li>
+</ul>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="./title/img_4.png"
+        data-srcset="./title/img_4.png, ./title/img_4.png 1.5x, ./title/img_4.png 2x"
+        data-sizes="auto"
+        alt="./title/img_4.png"
+        title="登陆账号" /></p>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="./title/img_6.png"
+        data-srcset="./title/img_6.png, ./title/img_6.png 1.5x, ./title/img_6.png 2x"
+        data-sizes="auto"
+        alt="./title/img_6.png"
+        title="连接手机解BL锁" /></p>
+<p>解BL锁会清除数据，先备份数据再操作。</p>
+<h1 id="2-刷入第三方recovery">2. 刷入第三方recovery</h1>
+<ul>
+<li>在Windows上下载免费的 <a href="https://cdn.alsgp0.fds.api.mi-img.com/micomm/MiFlash2020-3-14-0.rar" target="_blank" rel="noopener noreffer ">MiFlash</a> 刷机工具并解压安装，打开后点击左上角的Driver安装即可。
+<img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="./title/img_9.png"
+        data-srcset="./title/img_9.png, ./title/img_9.png 1.5x, ./title/img_9.png 2x"
+        data-sizes="auto"
+        alt="./title/img_9.png"
+        title="安装驱动" /></li>
+<li>找到适用于手机和安卓版本的第三方rec（例如橙狐rec），下载完成后解压。</li>
+<li>按住<code>电源键+音量下键</code>，进入fastboot模式并连接电脑。</li>
+<li>在Windows上下载免费的 <a href="https://lsdy.lanzoui.com/b0bwa7gif" target="_blank" rel="noopener noreffer ">搞机助手</a> 并解压安装，查看手机是否为A/B分区设备。
+<ul>
+<li>A/B分区设备：打开后点击<code>引导模式-&gt;刷入REC-&gt;选择Recovery-&gt;临时刷入(A/B分区设备)</code>，自动进入rec后如果提示密码则为锁屏密码，用搞机助手将刚刷入的recovery推送到手机，点击<code>主页面（install）安装选项-&gt;右下角刷入镜像（install image）选项-&gt;选择recovery分区滑动刷入</code>。</li>
+<li>非A/B分区设备：打开后点击<code>引导模式-&gt;刷入REC-&gt;选择Recovery-&gt;刷入(A/B分区设备)</code>，自动进入rec后，用搞机助手将刚刷入的recovery推送到手机，点击<code>主页面（install）安装选项-&gt;右下角刷入镜像（install image）选项-&gt;选择recovery分区滑动刷入</code>。</li>
+</ul>
+</li>
+</ul>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="./title/img.png"
+        data-srcset="./title/img.png, ./title/img.png 1.5x, ./title/img.png 2x"
+        data-sizes="auto"
+        alt="./title/img.png"
+        title="引导模式" />
+<img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="./title/img_1.png"
+        data-srcset="./title/img_1.png, ./title/img_1.png 1.5x, ./title/img_1.png 2x"
+        data-sizes="auto"
+        alt="./title/img_1.png"
+        title="刷入rec" />
+<img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="./title/img_2.png"
+        data-srcset="./title/img_2.png, ./title/img_2.png 1.5x, ./title/img_2.png 2x"
+        data-sizes="auto"
+        alt="./title/img_2.png"
+        title="选择第三方rec刷入" /></p>
+<p>至此，第三方rec刷入完成。</p>
+<h1 id="3-刷入magisk获取root权限">3. 刷入magisk获取root权限</h1>
+<ul>
+<li>按住<code>电源键+音量上键</code>，进入第三方rec，点击<code>高级-&gt;安装Magisk滑动刷入</code>，完成后重启系统即可。</li>
+<li>开机后安装 <a href="https://magiskcn.com/magisk-download" target="_blank" rel="noopener noreffer ">Magisk</a> app，下载安装后打开，如果提示修复运行环境则点击<code>确认</code>。</li>
+</ul>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="./title/img_11.png"
+        data-srcset="./title/img_11.png, ./title/img_11.png 1.5x, ./title/img_11.png 2x"
+        data-sizes="auto"
+        alt="./title/img_11.png"
+        title="看到Magisk的版本号，即为成功" />
+<img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="./title/img_12.png"
+        data-srcset="./title/img_12.png, ./title/img_12.png 1.5x, ./title/img_12.png 2x"
+        data-sizes="auto"
+        alt="./title/img_12.png"
+        title="获得超级用户权限" />
+<img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="./title/img_13.png"
+        data-srcset="./title/img_13.png, ./title/img_13.png 1.5x, ./title/img_13.png 2x"
+        data-sizes="auto"
+        alt="./title/img_13.png"
+        title="刷入各种模块" /></p>
+<p><strong>至此，成功刷入Magisk，开始愉快的刷机之旅吧！！</strong></p>
+</div><div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>Updated on 0001-01-01</span>
+            </div></div>
+        <div class="post-info-line">
+            <div class="post-info-md"></div>
+            <div class="post-info-share">
+                <span><a href="javascript:void(0);" title="Share on Twitter" data-sharer="twitter" data-url="http://example.org/posts/title/" data-title="MIUI系统搞机简单教程"><i class="fab fa-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Facebook" data-sharer="facebook" data-url="http://example.org/posts/title/"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Hacker News" data-sharer="hackernews" data-url="http://example.org/posts/title/" data-title="MIUI系统搞机简单教程"><i class="fab fa-hacker-news fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Line" data-sharer="line" data-url="http://example.org/posts/title/" data-title="MIUI系统搞机简单教程"><i data-svg-src="https://cdn.jsdelivr.net/npm/simple-icons@7.3.0/icons/line.svg" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on 微博" data-sharer="weibo" data-url="http://example.org/posts/title/" data-title="MIUI系统搞机简单教程"><i class="fab fa-weibo fa-fw" aria-hidden="true"></i></a></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section class="post-tags"></section>
+        <section>
+            <span><a href="javascript:void(0);" onclick="window.history.back();">Back</a></span>&nbsp;|&nbsp;<span><a href="/">Home</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav">
+            <a href="/posts/hello-world/" class="next" rel="next" title="Hello World">Hello World<i class="fas fa-angle-right fa-fw" aria-hidden="true"></i></a></div>
+</div>
+</article></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line">Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.109.0">Hugo</a> | Theme - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer" title="LoveIt 0.2.11"><i class="far fa-kiss-wink-heart fa-fw" aria-hidden="true"></i> LoveIt</a>
+                </div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2022 - 2023</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank"></a></span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Back to Top">
+                <i class="fas fa-arrow-up fa-fw" aria-hidden="true"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="View Comments">
+                <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
+            </a>
+        </div><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lazysizes@5.3.2/lazysizes.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/sharer.js@0.5.1/sharer.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copy to clipboard","maxShownLines":50},"comment":{}};</script><script type="text/javascript" src="/js/theme.min.js"></script></body>
+</html>
