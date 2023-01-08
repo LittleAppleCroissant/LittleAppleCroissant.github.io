@@ -7,9 +7,9 @@
   <title>MIUI系统搞机简单教程</title>
   <link>https://littleapplecroissant.github.io/posts/title/</link>
   <pubDate>Mon, 09 Jan 2023 01:24:41 &#43;0800</pubDate>
-  <author>Author</author>
+  <author>小苹果牛角包</author>
   <guid>https://littleapplecroissant.github.io/posts/title/</guid>
-  <description><![CDATA[目录 1. 解BL锁 2. 刷入第三方recovery 3. 刷入magisk获取root权限 1. 解BL锁 点击手机设置-&gt;开发者选项-&gt;设备解锁状态，绑定账号和设备。 打开官方链接：申请解锁小米手机 ，下载官方解锁工具进行解锁。 登陆账号：
+  <description><![CDATA[目录 1. 解锁BootLoader 2. 刷入第三方recovery 3. 刷入magisk获取root权限 1. 解锁BootLoader 点击手机设置-&gt;开发者选项-&gt;设备解锁状态，绑定账号和设备。 打开官方链接：申请解锁小米手机 ，下载官方解锁工具进行解锁。 登陆账号：
 连接手机解BL锁：
 解BL锁会清除数据，先备份数据再操作。
 2. 刷入第三方recovery 在Windows上下载免费的 MiFlash 刷机工具并解压安装，打开后点击左上角的Driver安装即可。 安装驱动：
