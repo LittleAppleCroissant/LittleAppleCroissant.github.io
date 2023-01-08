@@ -2,10 +2,10 @@
   xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml"
   ><url>
-      <loc>http://example.org/posts/first/</loc><lastmod>2023-01-08T02:46:41&#43;08:00</lastmod></url><url>
-      <loc>http://example.org/</loc><lastmod>2023-01-08T02:46:41&#43;08:00</lastmod></url><url>
-      <loc>http://example.org/posts/</loc><lastmod>2023-01-08T02:46:41&#43;08:00</lastmod></url><url>
-      <loc>http://example.org/categories/</loc></url><url>
-      <loc>http://example.org/posts/hello-world/</loc></url><url>
-      <loc>http://example.org/posts/title/</loc></url><url>
-      <loc>http://example.org/tags/</loc></url></urlset>
+      <loc>https://littleapplecroissant.github.io/posts/first/</loc><lastmod>2023-01-08T02:46:41&#43;08:00</lastmod></url><url>
+      <loc>https://littleapplecroissant.github.io/posts/</loc><lastmod>2023-01-08T02:46:41&#43;08:00</lastmod></url><url>
+      <loc>https://littleapplecroissant.github.io/</loc><lastmod>2023-01-08T02:46:41&#43;08:00</lastmod></url><url>
+      <loc>https://littleapplecroissant.github.io/categories/</loc></url><url>
+      <loc>https://littleapplecroissant.github.io/posts/hello-world/</loc></url><url>
+      <loc>https://littleapplecroissant.github.io/posts/title/</loc></url><url>
+      <loc>https://littleapplecroissant.github.io/tags/</loc></url></urlset>
