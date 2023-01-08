@@ -31,17 +31,17 @@ Deploy to remote sites $ hexo deploy More info: Deployment]]></description>
   <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate>
   <author>Author</author>
   <guid>https://littleapplecroissant.github.io/posts/title/</guid>
-  <description><![CDATA[目录 1. 解BL锁 2. 刷入第三方recovery 3. 刷入magisk获取root权限 1. 解BL锁 点击手机设置-&gt;开发者选项-&gt;设备解锁状态，绑定账号和设备。 打开官方链接：申请解锁小米手机 ，下载官方解锁工具进行解锁。 登陆账号
-连接手机解BL锁
+  <description><![CDATA[目录 1. 解BL锁 2. 刷入第三方recovery 3. 刷入magisk获取root权限 1. 解BL锁 点击手机设置-&gt;开发者选项-&gt;设备解锁状态，绑定账号和设备。 打开官方链接：申请解锁小米手机 ，下载官方解锁工具进行解锁。 登陆账号：
+连接手机解BL锁：
 解BL锁会清除数据，先备份数据再操作。
-2. 刷入第三方recovery 在Windows上下载免费的 MiFlash 刷机工具并解压安装，打开后点击左上角的Driver安装即可。 安装驱动
-找到适用于手机和安卓版本的第三方rec（例如橙狐rec），下载完成后解压。 按住电源键+音量下键，进入fastboot模式并连接电脑。 在Windows上下载免费的 搞机助手 并解压安装，查看手机是否为A/B分区设备。 A/B分区设备：打开后点击引导模式-&gt;刷入REC-&gt;选择Recovery-&gt;临时刷入(A/B分区设备)，自动进入rec后如果提示密码则为锁屏密码，用搞机助手将刚刷入的recovery推送到手机，点击主页面（install）安装选项-&gt;右下角刷入镜像（install image）选项-&gt;选择recovery分区滑动刷入。 非A/B分区设备：打开后点击引导模式-&gt;刷入REC-&gt;选择Recovery-&gt;刷入(A/B分区设备)，自动进入rec后，用搞机助手将刚刷入的recovery推送到手机，点击主页面（install）安装选项-&gt;右下角刷入镜像（install image）选项-&gt;选择recovery分区滑动刷入。 引导模式
-刷入rec
-选择第三方rec刷入
+2. 刷入第三方recovery 在Windows上下载免费的 MiFlash 刷机工具并解压安装，打开后点击左上角的Driver安装即可。 安装驱动：
+找到适用于手机和安卓版本的第三方rec（例如橙狐rec），下载完成后解压。 按住电源键+音量下键，进入fastboot模式并连接电脑。 在Windows上下载免费的 搞机助手 并解压安装，查看手机是否为A/B分区设备。 A/B分区设备：打开后点击引导模式-&gt;刷入REC-&gt;选择Recovery-&gt;临时刷入(A/B分区设备)，自动进入rec后如果提示密码则为锁屏密码，用搞机助手将刚刷入的recovery推送到手机，点击主页面（install）安装选项-&gt;右下角刷入镜像（install image）选项-&gt;选择recovery分区滑动刷入。 非A/B分区设备：打开后点击引导模式-&gt;刷入REC-&gt;选择Recovery-&gt;刷入(A/B分区设备)，自动进入rec后，用搞机助手将刚刷入的recovery推送到手机，点击主页面（install）安装选项-&gt;右下角刷入镜像（install image）选项-&gt;选择recovery分区滑动刷入。 引导模式：
+刷入rec：
+选择第三方rec刷入：
 至此，第三方rec刷入完成。
-3. 刷入magisk获取root权限 按住电源键+音量上键，进入第三方rec，点击高级-&gt;安装Magisk滑动刷入，完成后重启系统即可。 开机后安装 Magisk app，下载安装后打开，如果提示修复运行环境则点击确认。 看到Magisk的版本号，即为成功
-获得超级用户权限
-刷入各种模块
+3. 刷入magisk获取root权限 按住电源键+音量上键，进入第三方rec，点击高级-&gt;安装Magisk滑动刷入，完成后重启系统即可。 开机后安装 Magisk app，下载安装后打开，如果提示修复运行环境则点击确认。 看到Magisk的版本号，即为成功：
+获得超级用户权限：
+刷入各种模块：
 至此，成功刷入Magisk，开始愉快的刷机之旅吧！！]]></description>
 </item>
 </channel>
